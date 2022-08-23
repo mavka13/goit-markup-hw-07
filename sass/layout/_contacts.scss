@@ -1,0 +1,28 @@
+.contact__mail,
+.contact__phone-number{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    transition: color var(--transition-dur-and-func);
+}
+.contact__mail:hover,
+.contact__mail:focus,
+.contact__phone-number:hover,
+.contact__phone-number:focus{
+    color: var(--accent-color);
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+}
+.contact__mail{
+    margin-right: 50px;
+}
+.contact__list-icon{
+    fill: currentColor;
+    margin-right: 10px;
+}
