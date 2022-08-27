@@ -1,5 +1,5 @@
-.contact__mail,
-.contact__phone-number{
+.contacts__mail,
+.contacts__phone-number{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--text-color);
@@ -8,10 +8,10 @@
     align-items: center;
     transition: color var(--transition-dur-and-func);
 }
-.contact__mail:hover,
-.contact__mail:focus,
-.contact__phone-number:hover,
-.contact__phone-number:focus{
+.contacts__mail:hover,
+.contacts__mail:focus,
+.contacts__phone-number:hover,
+.contacts__phone-number:focus{
     color: var(--accent-color);
 }
 
@@ -19,10 +19,10 @@
     display: flex;
     align-items: center;
 }
-.contact__mail{
+.contacts__mail{
     margin-right: 50px;
 }
-.contact__list-icon{
+.contacts__list-icon{
     fill: currentColor;
     margin-right: 10px;
 }

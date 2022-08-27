@@ -330,8 +330,8 @@ body {
   color: var(--accent-color);
 }
 
-.contact__mail,
-.contact__phone-number {
+.contacts__mail,
+.contacts__phone-number {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -341,10 +341,10 @@ body {
   transition: color var(--transition-dur-and-func);
 }
 
-.contact__mail:hover,
-.contact__mail:focus,
-.contact__phone-number:hover,
-.contact__phone-number:focus {
+.contacts__mail:hover,
+.contacts__mail:focus,
+.contacts__phone-number:hover,
+.contacts__phone-number:focus {
   color: var(--accent-color);
 }
 
@@ -353,11 +353,11 @@ body {
   align-items: center;
 }
 
-.contact__mail {
+.contacts__mail {
   margin-right: 50px;
 }
 
-.contact__list-icon {
+.contacts__list-icon {
   fill: currentColor;
   margin-right: 10px;
 }
@@ -406,7 +406,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.benefit__title {
+.benefits__title {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -415,7 +415,7 @@ body {
   margin-bottom: 10px;
 }
 
-.benefit__description {
+.benefits__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -428,11 +428,11 @@ body {
   justify-content: space-between;
 }
 
-.benefit__item:not(:last-child) {
+.benefits__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefit {
+.benefits {
   padding-bottom: 0;
 }
 
@@ -488,7 +488,7 @@ body {
   padding: 27px 80px;
 }
 
-.team__section {
+.team-section {
   background-color: var(--bkg-color-light);
 }
 
@@ -639,11 +639,11 @@ body {
   margin-top: 20px;
 }
 
-.address__list-item {
+.address__item {
   margin-bottom: 9px;
 }
 
-.address__item {
+.address__link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -665,8 +665,8 @@ body {
   transition: color var(--transition-dur-and-func);
 }
 
-.address__item:hover,
-.address__item:focus,
+.address__link:hover,
+.address__link:focus,
 .address__contacts:hover,
 .address__contacts:focus {
   color: var(--accent-color);
@@ -806,7 +806,7 @@ body {
   border-color: var(--accent-color);
 }
 
-.portfolio__list {
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

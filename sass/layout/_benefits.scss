@@ -1,4 +1,4 @@
-.benefit__title{
+.benefits__title{
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -6,7 +6,7 @@
     font-size: 14px;
     margin-bottom: 10px;    
 }
-.benefit__description{
+.benefits__description{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -18,10 +18,10 @@
     justify-content: space-between;
     
 }
-.benefit__item:not(:last-child){
+.benefits__item:not(:last-child){
     margin-right: 30px;
 }
-.benefit{
+.benefits{
     padding-bottom: 0;
 }
 .benefits__item-card{
